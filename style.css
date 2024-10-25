@@ -3,6 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar h1 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+header .navbar nav {
+    display: flex;
+    gap: 15px;
+}
+
+header .navbar nav a {
+    color: #007bff;
+    text-decoration: none;
+}
 
 body {
     font-family: Arial, sans-serif;

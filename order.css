@@ -44,15 +44,16 @@ header .navbar nav a {
 .invoice-section {
     display: flex;
     gap: 20px;
-    width: 70%;
+    width: 50vw;
+
 }
 
-.invoice-details, .item-selection {
+.item-selection {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 50vw;
 }
 
 h2 {
@@ -113,6 +114,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #e2e2e2;
-    margin-top: 20px;
+    margin-top: 180px;
     font-size: 14px;
+
 }

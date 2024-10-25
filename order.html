@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS System - Order</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <h1>Sandaru POS System</h1>
+        <nav>
+            <a href="#">Customer</a>
+            <a href="#">Items</a>
+            <a href="#">Orders</a>
+            <a href="#">Others</a>
+
+
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="invoice-section">
+
+
+        <div class="item-selection">
+            <h2>Item Select</h2>
+            <form>
+                <label for="customerName">Customer Name:</label>
+                <select id="customerName">
+                    <option value="P002">P002</option>
+                </select>
+
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" value="Keerisamba 5Kg">
+
+
+
+                <label for="quantity">Qty On Hand:</label>
+                <input type="number" id="quantity" value="200">
+
+
+
+                <button type="button">Add Item To Order</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="summary-section">
+        <h2>Total: 1050Rs/=</h2>
+        <h3>SubTotal: 945Rs/=</h3>
+        <form>
+            <label for="cash">Cash:</label>
+            <input type="text" id="cash" value="5000">
+
+            <label for="discount">Discount:</label>
+            <input type="text" id="discount" value="10">
+
+            <h3>Balance: 4055</h3>
+            <button type="button">Purchase</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>Powered by IJSE</p>
+</footer>
+</body>
+</html>
